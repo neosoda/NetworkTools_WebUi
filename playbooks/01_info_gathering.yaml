@@ -1,0 +1,9 @@
+name: "Collecte d'informations de base"
+description: "Ce playbook exécute des commandes de base pour vérifier l'état des équipements."
+steps:
+  - name: "Vérification des versions"
+    ssh: "show version"
+  - name: "Vérification des routes IP"
+    ssh: "show ip route"
+  - name: "Vérification des interfaces"
+    ssh: "show ip interface brief"

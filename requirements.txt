@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+aiofiles
+APScheduler
+paramiko
+pysnmp
+pyasn1
+python-nmap
+openpyxl
+pyasyncore
+ttkbootstrap
+pydantic

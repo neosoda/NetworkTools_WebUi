@@ -1,0 +1,14 @@
+name: "Configuration NTP Standard"
+description: "Déploie la configuration des serveurs de temps NTP sur les équipements ciblés."
+steps:
+  - name: "Passage en mode configuration"
+    ssh:
+      - "configure terminal"
+  - name: "Appliquer la configuration NTP"
+    ssh:
+      - "ntp server 10.0.0.1"
+      - "ntp server 10.0.0.2"
+  - name: "Sauvegarde de la configuration"
+    ssh:
+      - "end"
+      - "write memory"
