@@ -1,0 +1,183 @@
+show running-config
+Running configuration:
+
+; J9776A Configuration Editor; Created on release #YA.16.11.0020
+; Ver #14:41.44.00.04.19.02.13.98.82.34.61.18.28.f3.84.9c.63.ff.37.27:05
+hostname "Aruba - CMIL"
+logging 10.113.76.175
+logging facility local0
+logging severity warning
+radius-server host 194.214.116.67 key "9sTtE!ZY"
+timesync ntp
+no sntp
+ntp unicast
+ntp server 10.113.76.254 burst
+ntp enable
+ip default-gateway 10.113.76.254
+ip route 0.0.0.0 0.0.0.0 10.113.76.254
+interface 1
+   dhcp-snooping trust
+   exit
+interface 2
+   dhcp-snooping trust
+   exit
+interface 3
+   dhcp-snooping trust
+   exit
+interface 4
+   dhcp-snooping trust
+   exit
+interface 5
+   dhcp-snooping trust
+   exit
+interface 6
+   dhcp-snooping trust
+   exit
+interface 7
+   dhcp-snooping trust
+   exit
+interface 8
+   dhcp-snooping trust
+   exit
+interface 9
+   dhcp-snooping trust
+   exit
+interface 10
+   dhcp-snooping trust
+   exit
+interface 11
+   dhcp-snooping trust
+   exit
+interface 12
+   dhcp-snooping trust
+   exit
+interface 13
+   dhcp-snooping trust
+   exit
+interface 14
+   dhcp-snooping trust
+   exit
+interface 15
+   dhcp-snooping trust
+   exit
+interface 16
+   dhcp-snooping trust
+   exit
+interface 17
+   dhcp-snooping trust
+   exit
+interface 18
+   dhcp-snooping trust
+   exit
+interface 19
+   dhcp-snooping trust
+   exit
+interface 20
+   dhcp-snooping trust
+   exit
+interface 21
+   dhcp-snooping trust
+   exit
+interface 22
+   dhcp-snooping trust
+   exit
+interface 23
+   dhcp-snooping trust
+   exit
+interface 24
+   dhcp-snooping trust
+   exit
+snmp-server community "TICE" operator unrestricted
+snmp-server contact "DDF" location "AD1 (Bat Administration), Niv.RDC Salle
+ 1037 Bureau CMIL)"
+aaa authorization group "Rancid" 1000 match-command "show" permit
+aaa authentication login privilege-mode
+aaa authentication console login radius local
+aaa authentication telnet login radius local
+aaa authentication ssh login radius local
+aaa authentication local-user "rancid" group "Rancid"
+vlan 1
+   name "Administratif"
+   no untagged 2,4-24
+   untagged 1,3,25-28
+   no ip address
+   exit
+vlan 2
+   name "Pedagogie"
+   untagged 2,5-17
+   tagged 1,25-26,28
+   no ip address
+   exit
+vlan 3
+   name "DMZ_PUBLIQUE"
+   tagged 1
+   no ip address
+   exit
+vlan 4
+   name "DMZ_Privee"
+   untagged 24
+   no ip address
+   exit
+vlan 20
+   name "videoprotection"
+   untagged 20
+   tagged 1,7,25-26
+   no ip address
+   exit
+vlan 21
+   name "WIFI_Management"
+   untagged 21
+   tagged 1,7,25-26,28
+   no ip address
+   exit
+vlan 23
+   name "GTC-GTB-OLD"
+   untagged 23
+   tagged 1,5,7,25-26
+   no ip address
+   exit
+vlan 33
+   name "AffichageDynamique"
+   untagged 18
+   tagged 1,7,25-26
+   no ip address
+   exit
+vlan 510
+   name "GEST-WIFI"
+   tagged 9,28
+   no ip address
+   exit
+vlan 511
+   name "GEST-INFRA"
+   untagged 4,19
+   tagged 1,7,25-26
+   ip address 10.113.76.95 255.255.255.0
+   exit
+vlan 515
+   name "WIFI-INVITES"
+   tagged 9,28
+   no ip address
+   exit
+vlan 520
+   name "WIFI-INTERNE-0"
+   tagged 9,28
+   no ip address
+   exit
+vlan 601
+   name "GTC-GTB"
+   untagged 22
+   tagged 1,7,25-26
+   no ip address
+   exit
+spanning-tree
+spanning-tree pathcost mstp 8021d
+spanning-tree priority 15 force-version rstp-operation
+no tftp server
+no dhcp config-file-update
+no dhcp image-file-update
+no dhcp tr69-acs-url
+activate software-update disable
+activate provision disable
+password manager
+
+Aruba - CMIL#

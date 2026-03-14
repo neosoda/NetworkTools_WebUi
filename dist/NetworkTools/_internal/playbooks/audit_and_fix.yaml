@@ -1,0 +1,16 @@
+name: "Audit & Fix Sécurité"
+description: "Vérifie les configurations critiques et applique les correctifs SSH"
+steps:
+  - name: "Vérification Version SSH"
+    ssh: "show ip ssh"
+  - name: "Vérification Chiffrement Mots de Passe"
+    ssh: "show running-config | include password-encryption"
+  - name: "Audit de Conformité Standard"
+    audit:
+      ips: "{{ips}}"
+      rules:
+        - "service password-encryption"
+        - "no ip http server"
+        - "ip ssh version 2"
+      mode: "line"
+      should_exist: true

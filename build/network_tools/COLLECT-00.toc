@@ -1,0 +1,3608 @@
+([('NetworkToolsV3.exe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\build\\network_tools\\NetworkToolsV3.exe',
+   'EXECUTABLE'),
+  ('python311.dll', 'C:\\Program Files\\Python311\\python311.dll', 'BINARY'),
+  ('Cryptodome\\Hash\\_BLAKE2s.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_BLAKE2s.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_ecb.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_ecb.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_cfb.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_cfb.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_RIPEMD160.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_RIPEMD160.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_SHA1.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_SHA1.pyd',
+   'BINARY'),
+  ('Cryptodome\\Util\\_strxor.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Util\\_strxor.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_SHA512.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_SHA512.pyd',
+   'BINARY'),
+  ('Cryptodome\\PublicKey\\_ed448.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\PublicKey\\_ed448.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_MD4.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_MD4.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_ofb.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_ofb.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_aesni.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_aesni.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_pkcs1_decode.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_pkcs1_decode.pyd',
+   'BINARY'),
+  ('Cryptodome\\PublicKey\\_ec_ws.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\PublicKey\\_ec_ws.pyd',
+   'BINARY'),
+  ('Cryptodome\\PublicKey\\_ed25519.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\PublicKey\\_ed25519.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_des3.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_des3.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_arc2.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_arc2.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_ocb.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_ocb.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_blowfish.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_blowfish.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_BLAKE2b.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_BLAKE2b.pyd',
+   'BINARY'),
+  ('Cryptodome\\Util\\_cpuid_c.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Util\\_cpuid_c.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_keccak.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_keccak.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_MD2.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_MD2.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_chacha20.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_chacha20.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_ctr.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_ctr.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_cast.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_cast.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_poly1305.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_poly1305.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_MD5.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_MD5.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_SHA384.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_SHA384.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_ghash_portable.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_ghash_portable.pyd',
+   'BINARY'),
+  ('Cryptodome\\PublicKey\\_curve25519.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\PublicKey\\_curve25519.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_Salsa20.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_Salsa20.pyd',
+   'BINARY'),
+  ('Cryptodome\\Protocol\\_scrypt.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Protocol\\_scrypt.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_eksblowfish.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_eksblowfish.pyd',
+   'BINARY'),
+  ('Cryptodome\\PublicKey\\_curve448.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\PublicKey\\_curve448.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_aes.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_aes.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_des.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_des.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_SHA224.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_SHA224.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_ghash_clmul.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_ghash_clmul.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_ARC4.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_ARC4.pyd',
+   'BINARY'),
+  ('Cryptodome\\Cipher\\_raw_cbc.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Cipher\\_raw_cbc.pyd',
+   'BINARY'),
+  ('Cryptodome\\Hash\\_SHA256.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Hash\\_SHA256.pyd',
+   'BINARY'),
+  ('Cryptodome\\Math\\_modexp.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\Cryptodome\\Math\\_modexp.pyd',
+   'BINARY'),
+  ('select.pyd', 'C:\\Program Files\\Python311\\DLLs\\select.pyd', 'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd', 'C:\\Program Files\\Python311\\DLLs\\_ssl.pyd', 'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd', 'C:\\Program Files\\Python311\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_bz2.pyd', 'C:\\Program Files\\Python311\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd', 'C:\\Program Files\\Python311\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\markupsafe\\_speedups.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\collections.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\sqlalchemy\\cyextension\\collections.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\util.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\sqlalchemy\\cyextension\\util.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\processors.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\sqlalchemy\\cyextension\\processors.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('sqlalchemy\\cyextension\\immutabledict.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\sqlalchemy\\cyextension\\immutabledict.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('greenlet\\_greenlet.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\greenlet\\_greenlet.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd', 'C:\\Program Files\\Python311\\DLLs\\_uuid.pyd', 'EXTENSION'),
+  ('sqlalchemy\\cyextension\\resultproxy.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\sqlalchemy\\cyextension\\resultproxy.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('_zoneinfo.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_zoneinfo.pyd',
+   'EXTENSION'),
+  ('pydantic_core\\_pydantic_core.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('websockets\\speedups.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\websockets\\speedups.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\url_parser.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\httptools\\parser\\url_parser.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\parser.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\httptools\\parser\\parser.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('yaml\\_yaml.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\yaml\\_yaml.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_cffi_backend.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\_cffi_backend.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('cryptography\\hazmat\\bindings\\_rust.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\_rust.pyd',
+   'EXTENSION'),
+  ('bcrypt\\_bcrypt.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\bcrypt\\_bcrypt.pyd',
+   'EXTENSION'),
+  ('nacl\\_sodium.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\nacl\\_sodium.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\PIL\\_webp.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_avif.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\PIL\\_avif.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\PIL\\_imagingmath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\PIL\\_imaging.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\cd.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\charset_normalizer\\cd.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\charset_normalizer\\md.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('watchfiles\\_rust_notify.cp311-win_amd64.pyd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\watchfiles\\_rust_notify.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program Files\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Program Files\\Python311\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Program Files\\Python311\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Program Files\\Python311\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program Files\\Python311\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('MSVCP140.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('sqlite3.dll', 'C:\\Program Files\\Python311\\DLLs\\sqlite3.dll', 'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('python3.dll', 'C:\\Program Files\\Python311\\python3.dll', 'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-sysinfo-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.6.7-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('config.json',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\config.json',
+   'DATA'),
+  ('network-analysis.ico',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\network-analysis.ico',
+   'DATA'),
+  ('playbooks\\01_info_gathering.yaml',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\playbooks\\01_info_gathering.yaml',
+   'DATA'),
+  ('playbooks\\02_config_ntp.yaml',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\playbooks\\02_config_ntp.yaml',
+   'DATA'),
+  ('playbooks\\audit_and_fix.yaml',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\playbooks\\audit_and_fix.yaml',
+   'DATA'),
+  ('server\\__init__.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\__init__.py',
+   'DATA'),
+  ('server\\__pycache__\\__init__.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('server\\__pycache__\\main.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\__pycache__\\main.cpython-311.pyc',
+   'DATA'),
+  ('server\\__pycache__\\scheduler.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\__pycache__\\scheduler.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__init__.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__init__.py',
+   'DATA'),
+  ('server\\api\\__pycache__\\__init__.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\audit.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\audit.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\backup.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\backup.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\diff.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\diff.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\history.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\history.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\playbook.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\playbook.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\scan.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\scan.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\scheduler_api.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\scheduler_api.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\ssh_cmd.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\ssh_cmd.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\__pycache__\\topology.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\__pycache__\\topology.cpython-311.pyc',
+   'DATA'),
+  ('server\\api\\audit.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\audit.py',
+   'DATA'),
+  ('server\\api\\backup.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\backup.py',
+   'DATA'),
+  ('server\\api\\diff.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\diff.py',
+   'DATA'),
+  ('server\\api\\history.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\history.py',
+   'DATA'),
+  ('server\\api\\playbook.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\playbook.py',
+   'DATA'),
+  ('server\\api\\scan.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\scan.py',
+   'DATA'),
+  ('server\\api\\scheduler_api.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\scheduler_api.py',
+   'DATA'),
+  ('server\\api\\ssh_cmd.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\ssh_cmd.py',
+   'DATA'),
+  ('server\\api\\topology.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\api\\topology.py',
+   'DATA'),
+  ('server\\db\\__pycache__\\database.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\db\\__pycache__\\database.cpython-311.pyc',
+   'DATA'),
+  ('server\\db\\database.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\db\\database.py',
+   'DATA'),
+  ('server\\main.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\main.py',
+   'DATA'),
+  ('server\\managers\\__init__.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\__init__.py',
+   'DATA'),
+  ('server\\managers\\__pycache__\\__init__.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('server\\managers\\__pycache__\\audit_manager.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\__pycache__\\audit_manager.cpython-311.pyc',
+   'DATA'),
+  ('server\\managers\\__pycache__\\backup_manager.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\__pycache__\\backup_manager.cpython-311.pyc',
+   'DATA'),
+  ('server\\managers\\__pycache__\\snmp_manager.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\__pycache__\\snmp_manager.cpython-311.pyc',
+   'DATA'),
+  ('server\\managers\\__pycache__\\ssh_manager.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\__pycache__\\ssh_manager.cpython-311.pyc',
+   'DATA'),
+  ('server\\managers\\__pycache__\\topology_manager.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\__pycache__\\topology_manager.cpython-311.pyc',
+   'DATA'),
+  ('server\\managers\\alert_manager.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\alert_manager.py',
+   'DATA'),
+  ('server\\managers\\audit_manager.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\audit_manager.py',
+   'DATA'),
+  ('server\\managers\\backup_manager.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\backup_manager.py',
+   'DATA'),
+  ('server\\managers\\diff_manager.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\diff_manager.py',
+   'DATA'),
+  ('server\\managers\\snmp_manager.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\snmp_manager.py',
+   'DATA'),
+  ('server\\managers\\ssh_manager.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\ssh_manager.py',
+   'DATA'),
+  ('server\\managers\\topology_manager.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\managers\\topology_manager.py',
+   'DATA'),
+  ('server\\scheduler.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\scheduler.py',
+   'DATA'),
+  ('server\\utils\\__init__.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\utils\\__init__.py',
+   'DATA'),
+  ('server\\utils\\__pycache__\\__init__.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\utils\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('server\\utils\\__pycache__\\network_sanitizer.cpython-311.pyc',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\utils\\__pycache__\\network_sanitizer.cpython-311.pyc',
+   'DATA'),
+  ('server\\utils\\network_sanitizer.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\utils\\network_sanitizer.py',
+   'DATA'),
+  ('server\\utils\\paths.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\server\\utils\\paths.py',
+   'DATA'),
+  ('web\\css\\style.css',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\css\\style.css',
+   'DATA'),
+  ('web\\index.html',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\index.html',
+   'DATA'),
+  ('web\\js\\app.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\app.js',
+   'DATA'),
+  ('web\\js\\audit.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\audit.js',
+   'DATA'),
+  ('web\\js\\backup.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\backup.js',
+   'DATA'),
+  ('web\\js\\diff.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\diff.js',
+   'DATA'),
+  ('web\\js\\history.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\history.js',
+   'DATA'),
+  ('web\\js\\playbook.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\playbook.js',
+   'DATA'),
+  ('web\\js\\scan.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\scan.js',
+   'DATA'),
+  ('web\\js\\scheduler.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\scheduler.js',
+   'DATA'),
+  ('web\\js\\ssh.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\ssh.js',
+   'DATA'),
+  ('web\\js\\topology.js',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\web\\js\\topology.js',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-PROXY-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-PROXY-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\PYSNMP-USM-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\PYSNMP-USM-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\instances\\__SNMPv2-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\instances\\__SNMPv2-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\INET-ADDRESS-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\INET-ADDRESS-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-USM-HMAC-SHA2-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-USM-HMAC-SHA2-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\ASN1.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\ASN1.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMPv2-TM.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMPv2-TM.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\RFC1213-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\RFC1213-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\TRANSPORT-ADDRESS-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\TRANSPORT-ADDRESS-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\instances\\__init__.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\instances\\__init__.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-USER-BASED-SM-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-USER-BASED-SM-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-VIEW-BASED-ACM-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-VIEW-BASED-ACM-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-USM-AES-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-USM-AES-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\instances\\__SNMP-VIEW-BASED-ACM-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\instances\\__SNMP-VIEW-BASED-ACM-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\instances\\__PYSNMP-USM-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\instances\\__PYSNMP-USM-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\instances\\__SNMP-FRAMEWORK-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\instances\\__SNMP-FRAMEWORK-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-TARGET-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-TARGET-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMPv2-SMI.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMPv2-SMI.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMPv2-TC.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMPv2-TC.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\RFC1158-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\RFC1158-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\__init__.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\__init__.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-COMMUNITY-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-COMMUNITY-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-MPD-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-MPD-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-NOTIFICATION-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-NOTIFICATION-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\instances\\__SNMP-TARGET-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\instances\\__SNMP-TARGET-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMPv2-CONF.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMPv2-CONF.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\ASN1-REFINEMENT.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\ASN1-REFINEMENT.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\instances\\__SNMP-USER-BASED-SM-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\instances\\__SNMP-USER-BASED-SM-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-USER-BASED-SM-3DES-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-USER-BASED-SM-3DES-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\PYSNMP-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\PYSNMP-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\ASN1-ENUMERATION.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\ASN1-ENUMERATION.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMPv2-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMPv2-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\PYSNMP-SOURCE-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\PYSNMP-SOURCE-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\instances\\__SNMP-MPD-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\instances\\__SNMP-MPD-MIB.py',
+   'DATA'),
+  ('pysnmp\\smi\\mibs\\SNMP-FRAMEWORK-MIB.py',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pysnmp\\smi\\mibs\\SNMP-FRAMEWORK-MIB.py',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Budapest',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Budapest',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Guadeloupe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Guadeloupe',
+   'DATA'),
+  ('tzdata\\zoneinfo\\leapseconds',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\leapseconds',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Norfolk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Norfolk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Macao',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Macao',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Warsaw',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Warsaw',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Canary',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Canary',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Paramaribo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Paramaribo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Lower_Princes',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Lower_Princes',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Faroe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Faroe',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Aruba',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Aruba',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Khartoum',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Khartoum',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Moscow',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Moscow',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Ouagadougou',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Ouagadougou',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Juba',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Juba',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Bahia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Bahia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Poland',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Poland',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Monterrey',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Monterrey',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\ACT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\ACT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\ROK',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\ROK',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Pago_Pago',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Pago_Pago',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Buenos_Aires',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Buenos_Aires',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Port-au-Prince',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Port-au-Prince',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Calcutta',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Calcutta',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Shiprock',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Shiprock',
+   'DATA'),
+  ('tzdata\\zoneinfo\\UCT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\UCT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Irkutsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Irkutsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Santo_Domingo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Santo_Domingo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Berlin',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Berlin',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Guayaquil',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Guayaquil',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Karachi',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Karachi',
+   'DATA'),
+  ('tzdata\\zoneinfo\\HST',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\HST',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Tomsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Tomsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Ulaanbaatar',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Ulaanbaatar',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Hebron',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Hebron',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Nipigon',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Nipigon',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Recife',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Recife',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Boise',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Boise',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Ulan_Bator',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Ulan_Bator',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Inuvik',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Inuvik',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Brazil\\DeNoronha',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Brazil\\DeNoronha',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Luanda',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Luanda',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Beirut',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Beirut',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Darwin',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Darwin',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Nuuk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Nuuk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Reykjavik',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Reykjavik',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Virgin',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Virgin',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Harbin',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Harbin',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Antigua',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Antigua',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Funafuti',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Funafuti',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Greenwich',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Greenwich',
+   'DATA'),
+  ('tzdata\\zoneinfo\\zonenow.tab',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\zonenow.tab',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Astrakhan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Astrakhan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Timbuktu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Timbuktu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Banjul',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Banjul',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Brazzaville',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Brazzaville',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Resolute',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Resolute',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Kinshasa',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Kinshasa',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Campo_Grande',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Campo_Grande',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Majuro',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Majuro',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indiana\\Vincennes',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\Vincennes',
+   'DATA'),
+  ('tzdata\\zoneinfo\\zone1970.tab',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\zone1970.tab',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Jayapura',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Jayapura',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\PST8PDT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\PST8PDT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Port_Moresby',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Port_Moresby',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Truk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Truk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Zulu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Zulu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Mawson',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Mawson',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Bermuda',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Bermuda',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Danmarkshavn',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Danmarkshavn',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Asmara',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Asmara',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Canada\\Eastern',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\Eastern',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Istanbul',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Istanbul',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Tucuman',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Tucuman',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Singapore',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Singapore',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Chile\\Continental',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Chile\\Continental',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Port_of_Spain',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Port_of_Spain',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Porto_Acre',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Porto_Acre',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Caracas',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Caracas',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Mexico\\General',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Mexico\\General',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Chita',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Chita',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Amsterdam',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Amsterdam',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Honolulu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Honolulu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Brussels',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Brussels',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Riga',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Riga',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-0',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-0',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Coral_Harbour',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Coral_Harbour',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Athens',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Athens',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-13',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-13',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Novokuznetsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Novokuznetsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Omsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Omsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Chihuahua',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Chihuahua',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Dubai',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Dubai',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Dushanbe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Dushanbe',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Fortaleza',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Fortaleza',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Troll',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Troll',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Kampala',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Kampala',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Ushuaia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Ushuaia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Guernsey',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Guernsey',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Porto-Novo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Porto-Novo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Israel',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Israel',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Comoro',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Comoro',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Yancowinna',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Yancowinna',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Juneau',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Juneau',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Bangui',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Bangui',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Cayman',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Cayman',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Srednekolymsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Srednekolymsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Punta_Arenas',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Punta_Arenas',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Magadan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Magadan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indiana\\Knox',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\Knox',
+   'DATA'),
+  ('tzdata\\zoneinfo\\GMT+0',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\GMT+0',
+   'DATA'),
+  ('tzdata\\zoneinfo\\ROC',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\ROC',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Qyzylorda',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Qyzylorda',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Dominica',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Dominica',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Tunis',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Tunis',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\South',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\South',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Lagos',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Lagos',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Ojinaga',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Ojinaga',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Mazatlan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Mazatlan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Algiers',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Algiers',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Azores',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Azores',
+   'DATA'),
+  ('tzdata\\zoneinfo\\W-SU',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\W-SU',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Ulyanovsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Ulyanovsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Salta',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Salta',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\El_Salvador',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\El_Salvador',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-14',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-14',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Katmandu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Katmandu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Skopje',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Skopje',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Libreville',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Libreville',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Eirunepe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Eirunepe',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Merida',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Merida',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Hobart',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Hobart',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Brazil\\East',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Brazil\\East',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Ujung_Pandang',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Ujung_Pandang',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Djibouti',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Djibouti',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Godthab',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Godthab',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Dawson_Creek',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Dawson_Creek',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Factory',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Factory',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Yakutsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Yakutsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Riyadh',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Riyadh',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Baku',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Baku',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Bahia_Banderas',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Bahia_Banderas',
+   'DATA'),
+  ('tzdata\\zoneinfo\\NZ-CHAT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\NZ-CHAT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Aqtau',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Aqtau',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Tarawa',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Tarawa',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Mauritius',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Mauritius',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Vatican',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Vatican',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Yap',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Yap',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Freetown',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Freetown',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Jakarta',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Jakarta',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Cancun',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Cancun',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Choibalsan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Choibalsan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Kentucky\\Monticello',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Kentucky\\Monticello',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Ljubljana',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Ljubljana',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Apia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Apia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\EET',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\EET',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Addis_Ababa',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Addis_Ababa',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Enderbury',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Enderbury',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Dhaka',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Dhaka',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\St_Johns',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\St_Johns',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Chongqing',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Chongqing',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Oslo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Oslo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Maceio',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Maceio',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Uzhgorod',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Uzhgorod',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Vancouver',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Vancouver',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Barbados',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Barbados',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Jujuy',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Jujuy',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Cayenne',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Cayenne',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Sao_Tome',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Sao_Tome',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Ceuta',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Ceuta',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Lord_Howe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Lord_Howe',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Zagreb',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Zagreb',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Yakutat',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Yakutat',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Scoresbysund',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Scoresbysund',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Edmonton',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Edmonton',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Montreal',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Montreal',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Tortola',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Tortola',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Regina',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Regina',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Tongatapu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Tongatapu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Andorra',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Andorra',
+   'DATA'),
+  ('tzdata\\zoneinfo\\EST5EDT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\EST5EDT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Dublin',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Dublin',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Los_Angeles',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Los_Angeles',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Rankin_Inlet',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Rankin_Inlet',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Aden',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Aden',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Winnipeg',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Winnipeg',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Curacao',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Curacao',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Knox_IN',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Knox_IN',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Indiana-Starke',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Indiana-Starke',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-10',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-10',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Zaporozhye',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Zaporozhye',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Niue',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Niue',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Bogota',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Bogota',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Canada\\Atlantic',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\Atlantic',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\South_Georgia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\South_Georgia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Zurich',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Zurich',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\McMurdo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\McMurdo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Dakar',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Dakar',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Bratislava',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Bratislava',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Mahe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Mahe',
+   'DATA'),
+  ('tzdata\\zoneinfo\\CST6CDT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\CST6CDT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Efate',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Efate',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Ust-Nera',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Ust-Nera',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Gaza',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Gaza',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-8',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-8',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Melbourne',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Melbourne',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Ashgabat',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Ashgabat',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Urumqi',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Urumqi',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Krasnoyarsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Krasnoyarsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Kiritimati',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Kiritimati',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Iceland',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Iceland',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Damascus',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Damascus',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Galapagos',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Galapagos',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Makassar',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Makassar',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Portugal',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Portugal',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Luxembourg',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Luxembourg',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Stanley',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Stanley',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Sitka',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Sitka',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Bahrain',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Bahrain',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Casey',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Casey',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Santarem',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Santarem',
+   'DATA'),
+  ('tzdata\\zoneinfo\\GB',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\GB',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Helsinki',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Helsinki',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Sarajevo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Sarajevo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Kathmandu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Kathmandu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Detroit',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Detroit',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\St_Kitts',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\St_Kitts',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Kamchatka',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Kamchatka',
+   'DATA'),
+  ('tzdata\\zoneinfo\\EST',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\EST',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Cape_Verde',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Cape_Verde',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Samarkand',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Samarkand',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Denver',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Denver',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+1',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+1',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Japan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Japan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Macau',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Macau',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Bishkek',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Bishkek',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\West',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\West',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Baghdad',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Baghdad',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Asmera',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Asmera',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Palmer',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Palmer',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Cuiaba',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Cuiaba',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Turkey',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Turkey',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Currie',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Currie',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Navajo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Navajo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Cordoba',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Cordoba',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Thimbu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Thimbu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Lisbon',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Lisbon',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Wallis',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Wallis',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Iqaluit',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Iqaluit',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Mariehamn',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Mariehamn',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Nicosia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Nicosia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Madeira',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Madeira',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Grenada',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Grenada',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\Greenwich',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\Greenwich',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Maputo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Maputo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Guatemala',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Guatemala',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Montserrat',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Montserrat',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Brisbane',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Brisbane',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Adelaide',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Adelaide',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Isle_of_Man',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Isle_of_Man',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Conakry',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Conakry',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Malabo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Malabo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Brazil\\West',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Brazil\\West',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Guam',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Guam',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Tbilisi',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Tbilisi',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\North',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\North',
+   'DATA'),
+  ('tzdata\\zoneinfo\\GMT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\GMT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-9',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-9',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Johannesburg',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Johannesburg',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Douala',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Douala',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Lusaka',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Lusaka',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Guadalcanal',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Guadalcanal',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Rangoon',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Rangoon',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Lome',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Lome',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Ensenada',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Ensenada',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Nauru',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Nauru',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Cuba',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Cuba',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Chungking',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Chungking',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\San_Luis',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\San_Luis',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Noumea',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Noumea',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Macquarie',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Macquarie',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Reunion',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Reunion',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Martinique',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Martinique',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Anadyr',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Anadyr',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Stockholm',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Stockholm',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Porto_Velho',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Porto_Velho',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Chuuk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Chuuk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Kwajalein',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Kwajalein',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Maseru',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Maseru',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Pitcairn',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Pitcairn',
+   'DATA'),
+  ('tzdata\\zoneinfo\\MET',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\MET',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Aleutian',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Aleutian',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Monaco',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Monaco',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Samoa',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Samoa',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\New_York',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\New_York',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Belfast',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Belfast',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indiana\\Marengo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\Marengo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Brunei',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Brunei',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Atikokan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Atikokan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Ndjamena',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Ndjamena',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Vienna',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Vienna',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Catamarca',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Catamarca',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Montevideo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Montevideo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Alaska',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Alaska',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Kaliningrad',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Kaliningrad',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indiana\\Petersburg',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\Petersburg',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\London',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\London',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Pacific',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Pacific',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Sakhalin',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Sakhalin',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Iran',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Iran',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\DumontDUrville',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\DumontDUrville',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Canada\\Pacific',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\Pacific',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Midway',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Midway',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Jamaica',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Jamaica',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Nassau',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Nassau',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Phnom_Penh',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Phnom_Penh',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Paris',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Paris',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Boa_Vista',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Boa_Vista',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-3',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-3',
+   'DATA'),
+  ('tzdata\\zoneinfo\\GB-Eire',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\GB-Eire',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Eucla',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Eucla',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Brazil\\Acre',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Brazil\\Acre',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Kashgar',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Kashgar',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Accra',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Accra',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Havana',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Havana',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Aqtobe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Aqtobe',
+   'DATA'),
+  ('tzdata\\zoneinfo\\CET',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\CET',
+   'DATA'),
+  ('tzdata\\zoneinfo\\GMT0',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\GMT0',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Metlakatla',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Metlakatla',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Nairobi',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Nairobi',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\UTC',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\UTC',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Phoenix',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Phoenix',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Vostok',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Vostok',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Bujumbura',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Bujumbura',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Egypt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Egypt',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-11',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-11',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Thimphu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Thimphu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Santa_Isabel',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Santa_Isabel',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\St_Lucia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\St_Lucia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Antananarivo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Antananarivo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\St_Barthelemy',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\St_Barthelemy',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Canada\\Mountain',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\Mountain',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Chicago',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Chicago',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Gambier',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Gambier',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Kiev',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Kiev',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Miquelon',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Miquelon',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Kirov',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Kirov',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+2',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+2',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Kabul',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Kabul',
+   'DATA'),
+  ('tzdata\\zoneinfo\\zone.tab',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\zone.tab',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Dili',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Dili',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Anchorage',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Anchorage',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Famagusta',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Famagusta',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Hovd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Hovd',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\South_Pole',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\South_Pole',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Yerevan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Yerevan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Rosario',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Rosario',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Canada\\Central',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\Central',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Queensland',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Queensland',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Auckland',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Auckland',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Catamarca',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Catamarca',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-7',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-7',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Thunder_Bay',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Thunder_Bay',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indiana\\Winamac',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\Winamac',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\NSW',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\NSW',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Pontianak',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Pontianak',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Goose_Bay',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Goose_Bay',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indianapolis',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indianapolis',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Atka',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Atka',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Kralendijk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Kralendijk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Monrovia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Monrovia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Malta',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Malta',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\UCT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\UCT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Almaty',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Almaty',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Kanton',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Kanton',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\Faeroe',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\Faeroe',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Wake',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Wake',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+4',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+4',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Fort_Wayne',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Fort_Wayne',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Tirane',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Tirane',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Fakaofo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Fakaofo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\MST7MDT',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\MST7MDT',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Kuwait',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Kuwait',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Gibraltar',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Gibraltar',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Costa_Rica',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Costa_Rica',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Saratov',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Saratov',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Amman',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Amman',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Dacca',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Dacca',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Toronto',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Toronto',
+   'DATA'),
+  ('tzdata\\zoneinfo\\tzdata.zi',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\tzdata.zi',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Abidjan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Abidjan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Cambridge_Bay',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Cambridge_Bay',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Maldives',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Maldives',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Chagos',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Chagos',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Volgograd',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Volgograd',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Michigan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Michigan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Bougainville',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Bougainville',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Windhoek',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Windhoek',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Ho_Chi_Minh',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Ho_Chi_Minh',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Victoria',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Victoria',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Whitehorse',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Whitehorse',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Tiraspol',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Tiraspol',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Blanc-Sablon',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Blanc-Sablon',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Rio_Branco',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Rio_Branco',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Copenhagen',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Copenhagen',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Mbabane',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Mbabane',
+   'DATA'),
+  ('tzdata\\zoneinfo\\WET',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\WET',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Cocos',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Cocos',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Mayotte',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Mayotte',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Samoa',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Samoa',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Easter',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Easter',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Jamaica',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Jamaica',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Christmas',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Christmas',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Pyongyang',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Pyongyang',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+11',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+11',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Atyrau',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Atyrau',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-12',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-12',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\St_Vincent',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\St_Vincent',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Tegucigalpa',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Tegucigalpa',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Barnaul',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Barnaul',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Perth',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Perth',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Thule',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Thule',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Pohnpei',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Pohnpei',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Istanbul',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Istanbul',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Belgrade',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Belgrade',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Kyiv',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Kyiv',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Busingen',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Busingen',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Qostanay',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Qostanay',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\St_Thomas',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\St_Thomas',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+8',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+8',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-1',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-1',
+   'DATA'),
+  ('tzdata\\zoneinfo\\GMT-0',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\GMT-0',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\East-Indiana',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\East-Indiana',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Shanghai',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Shanghai',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indiana\\Tell_City',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\Tell_City',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Casablanca',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Casablanca',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Broken_Hill',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Broken_Hill',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Adak',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Adak',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Sofia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Sofia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Mendoza',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Mendoza',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Puerto_Rico',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Puerto_Rico',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\El_Aaiun',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\El_Aaiun',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Central',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Central',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\San_Juan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\San_Juan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Dawson',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Dawson',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Chatham',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Chatham',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\Universal',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\Universal',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Rainy_River',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Rainy_River',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Khandyga',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Khandyga',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Hermosillo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Hermosillo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Palau',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Palau',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Panama',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Panama',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Manaus',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Manaus',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Tijuana',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Tijuana',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Araguaina',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Araguaina',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Niamey',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Niamey',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Bamako',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Bamako',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Colombo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Colombo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\NZ',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\NZ',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Jerusalem',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Jerusalem',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Tripoli',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Tripoli',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Noronha',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Noronha',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+12',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+12',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Tallinn',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Tallinn',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Bucharest',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Bucharest',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Marigot',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Marigot',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Creston',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Creston',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\La_Paz',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\La_Paz',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Moncton',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Moncton',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Yangon',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Yangon',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Mountain',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Mountain',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Gaborone',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Gaborone',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT0',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT0',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Kolkata',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Kolkata',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Guyana',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Guyana',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Canada\\Saskatchewan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\Saskatchewan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Ponape',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Ponape',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Lima',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Lima',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Arctic\\Longyearbyen',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Arctic\\Longyearbyen',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Lindeman',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Lindeman',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Belize',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Belize',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Eire',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Eire',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Sao_Paulo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Sao_Paulo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Tel_Aviv',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Tel_Aviv',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Rothera',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Rothera',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Cairo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Cairo',
+   'DATA'),
+  ('tzdata\\zones',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zones',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+3',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+3',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\San_Marino',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\San_Marino',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Rarotonga',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Rarotonga',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Hawaii',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Hawaii',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Mexico\\BajaNorte',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Mexico\\BajaNorte',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Canada\\Newfoundland',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\Newfoundland',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+6',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+6',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Chile\\EasterIsland',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Chile\\EasterIsland',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Johnston',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Johnston',
+   'DATA'),
+  ('tzdata\\zoneinfo\\iso3166.tab',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\iso3166.tab',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Cordoba',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Cordoba',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Jersey',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Jersey',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\Zulu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\Zulu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Asuncion',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Asuncion',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Belem',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Belem',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Indiana\\Vevay',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\Vevay',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Kosrae',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Kosrae',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Nouakchott',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Nouakchott',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Minsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Minsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Pangnirtung',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Pangnirtung',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+5',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+5',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Podgorica',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Podgorica',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Novosibirsk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Novosibirsk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Tehran',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Tehran',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Glace_Bay',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Glace_Bay',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Nicosia',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Nicosia',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Kuching',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Kuching',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Madrid',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Madrid',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\North_Dakota\\Center',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\North_Dakota\\Center',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Indian\\Kerguelen',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\Kerguelen',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Anguilla',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Anguilla',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Libya',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Libya',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+0',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+0',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Harare',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Harare',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Marquesas',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Marquesas',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Mendoza',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Mendoza',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Vientiane',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Vientiane',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Sydney',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Sydney',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Seoul',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Seoul',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-5',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-5',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Universal',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Universal',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Davis',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Davis',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Saipan',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Saipan',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Vilnius',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Vilnius',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Coyhaique',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Coyhaique',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Grand_Turk',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Grand_Turk',
+   'DATA'),
+  ('tzdata\\zoneinfo\\UTC',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\UTC',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Ciudad_Juarez',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Ciudad_Juarez',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Prague',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Prague',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Lubumbashi',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Lubumbashi',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Vladivostok',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Vladivostok',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Managua',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Managua',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Tokyo',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Tokyo',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Singapore',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Singapore',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Menominee',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Menominee',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Yellowknife',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Yellowknife',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Louisville',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Louisville',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-2',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-2',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Antarctica\\Syowa',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\Syowa',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Canada\\Yukon',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\Yukon',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+9',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+9',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Samara',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Samara',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Swift_Current',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Swift_Current',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+10',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+10',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Tashkent',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Tashkent',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Hong_Kong',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Hong_Kong',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Kentucky\\Louisville',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Kentucky\\Louisville',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Atlantic\\St_Helena',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\St_Helena',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Fiji',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Fiji',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Saigon',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Saigon',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Mexico\\BajaSur',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Mexico\\BajaSur',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Arizona',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Arizona',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Oral',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Oral',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-6',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-6',
+   'DATA'),
+  ('tzdata\\zoneinfo\\PRC',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\PRC',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Bissau',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Bissau',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Canberra',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Canberra',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Mexico_City',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Mexico_City',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'DATA'),
+  ('tzdata\\zoneinfo\\MST',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\MST',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\LHI',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\LHI',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Chisinau',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Chisinau',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Vaduz',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Vaduz',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Yekaterinburg',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Yekaterinburg',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Kigali',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Kigali',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Australia\\Tasmania',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\Tasmania',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Jujuy',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Jujuy',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Qatar',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Qatar',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Muscat',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Muscat',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Mogadishu',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Mogadishu',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT+7',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT+7',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Fort_Nelson',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Fort_Nelson',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Santiago',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Santiago',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Simferopol',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Simferopol',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Etc\\GMT-4',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\GMT-4',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Europe\\Rome',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\Rome',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Nome',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Nome',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Ashkhabad',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Ashkhabad',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Halifax',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Halifax',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Tahiti',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Tahiti',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Taipei',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Taipei',
+   'DATA'),
+  ('tzdata\\zoneinfo\\US\\Eastern',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\Eastern',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'DATA'),
+  ('tzdata\\zoneinfo\\America\\Matamoros',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Matamoros',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Manila',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Manila',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Hongkong',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Hongkong',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Pacific\\Kwajalein',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\Kwajalein',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Africa\\Blantyre',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\Blantyre',
+   'DATA'),
+  ('tzdata\\zoneinfo\\Asia\\Bangkok',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\Bangkok',
+   'DATA'),
+  ('cryptography-46.0.5.dist-info\\licenses\\LICENSE.APACHE',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\cryptography-46.0.5.dist-info\\licenses\\LICENSE.APACHE',
+   'DATA'),
+  ('cryptography-46.0.5.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\cryptography-46.0.5.dist-info\\INSTALLER',
+   'DATA'),
+  ('cryptography-46.0.5.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\cryptography-46.0.5.dist-info\\WHEEL',
+   'DATA'),
+  ('cryptography-46.0.5.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\cryptography-46.0.5.dist-info\\RECORD',
+   'DATA'),
+  ('cryptography-46.0.5.dist-info\\licenses\\LICENSE',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\cryptography-46.0.5.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('cryptography-46.0.5.dist-info\\licenses\\LICENSE.BSD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\cryptography-46.0.5.dist-info\\licenses\\LICENSE.BSD',
+   'DATA'),
+  ('cryptography-46.0.5.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\cryptography-46.0.5.dist-info\\METADATA',
+   'DATA'),
+  ('nacl\\py.typed',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\nacl\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('tzlocal-5.3.1.dist-info\\LICENSE.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzlocal-5.3.1.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('tzdata-2025.3.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata-2025.3.dist-info\\WHEEL',
+   'DATA'),
+  ('apscheduler-3.11.2.dist-info\\top_level.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\apscheduler-3.11.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('apscheduler-3.11.2.dist-info\\REQUESTED',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\apscheduler-3.11.2.dist-info\\REQUESTED',
+   'DATA'),
+  ('apscheduler-3.11.2.dist-info\\entry_points.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\apscheduler-3.11.2.dist-info\\entry_points.txt',
+   'DATA'),
+  ('apscheduler-3.11.2.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\apscheduler-3.11.2.dist-info\\METADATA',
+   'DATA'),
+  ('tzdata-2025.3.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata-2025.3.dist-info\\RECORD',
+   'DATA'),
+  ('tzlocal-5.3.1.dist-info\\top_level.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzlocal-5.3.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('apscheduler-3.11.2.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\apscheduler-3.11.2.dist-info\\RECORD',
+   'DATA'),
+  ('apscheduler-3.11.2.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\apscheduler-3.11.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('tzdata-2025.3.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata-2025.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('tzdata-2025.3.dist-info\\top_level.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata-2025.3.dist-info\\top_level.txt',
+   'DATA'),
+  ('tzdata-2025.3.dist-info\\licenses\\LICENSE',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata-2025.3.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('tzlocal-5.3.1.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzlocal-5.3.1.dist-info\\RECORD',
+   'DATA'),
+  ('tzdata-2025.3.dist-info\\licenses\\licenses\\LICENSE_APACHE',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata-2025.3.dist-info\\licenses\\licenses\\LICENSE_APACHE',
+   'DATA'),
+  ('tzlocal-5.3.1.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzlocal-5.3.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('tzlocal-5.3.1.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzlocal-5.3.1.dist-info\\WHEEL',
+   'DATA'),
+  ('apscheduler-3.11.2.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\apscheduler-3.11.2.dist-info\\WHEEL',
+   'DATA'),
+  ('tzlocal-5.3.1.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzlocal-5.3.1.dist-info\\METADATA',
+   'DATA'),
+  ('apscheduler-3.11.2.dist-info\\licenses\\LICENSE.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\apscheduler-3.11.2.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('tzdata-2025.3.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\tzdata-2025.3.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-16.0.dist-info\\licenses\\LICENSE',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('paramiko-4.0.0.dist-info\\licenses\\LICENSE',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\paramiko-4.0.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\top_level.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\top_level.txt',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('paramiko-4.0.0.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\paramiko-4.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('pydantic-2.12.5.dist-info\\licenses\\LICENSE',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pydantic-2.12.5.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('pydantic-2.12.5.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pydantic-2.12.5.dist-info\\WHEEL',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\WHEEL',
+   'DATA'),
+  ('pydantic-2.12.5.dist-info\\REQUESTED',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pydantic-2.12.5.dist-info\\REQUESTED',
+   'DATA'),
+  ('click-8.3.1.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\setuptools-65.5.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('click-8.3.1.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\setuptools-65.5.0.dist-info\\WHEEL',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-16.0.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\REQUESTED',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\setuptools-65.5.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('click-8.3.1.dist-info\\licenses\\LICENSE.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('click-8.3.1.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\setuptools-65.5.0.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-16.0.dist-info\\top_level.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('paramiko-4.0.0.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\paramiko-4.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.12.5.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pydantic-2.12.5.dist-info\\METADATA',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.12.5.dist-info\\RECORD',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pydantic-2.12.5.dist-info\\RECORD',
+   'DATA'),
+  ('click-8.3.1.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\WHEEL',
+   'DATA'),
+  ('paramiko-4.0.0.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\paramiko-4.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('pydantic-2.12.5.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\pydantic-2.12.5.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\LICENSE',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\setuptools-65.5.0.dist-info\\LICENSE',
+   'DATA'),
+  ('websockets-16.0.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\METADATA',
+   'DATA'),
+  ('paramiko-4.0.0.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\paramiko-4.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('paramiko-4.0.0.dist-info\\top_level.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\paramiko-4.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\METADATA',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\setuptools-65.5.0.dist-info\\METADATA',
+   'DATA'),
+  ('paramiko-4.0.0.dist-info\\REQUESTED',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\paramiko-4.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\entry_points.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\setuptools-65.5.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\top_level.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\setuptools-65.5.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('websockets-16.0.dist-info\\INSTALLER',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('websockets-16.0.dist-info\\WHEEL',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-16.0.dist-info\\entry_points.txt',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('base_library.zip',
+   'B:\\OneDrive RGE\\OneDrive - Région GRAND '
+   'EST\\TOOLS\\PROJETS\\NetworkTools-V3\\build\\network_tools\\base_library.zip',
+   'DATA')],)

@@ -1,0 +1,257 @@
+show running-config
+!
+service password-encryption
+!
+hostname EX5-3-1
+!
+no banner motd
+!
+username cmil privilege 15 password 8 $1$bJoFfE4D$ZR83JnXi0Dz73JAlcpJ3Z.
+no username manager
+!
+log facility local0
+log host 10.113.76.160
+log host 10.113.76.160 level warnings 
+!
+ssh server allow-users *
+ssh server allow-users cmil
+service ssh
+!
+no service telnet
+!
+no service http
+!
+clock timezone France plus 1:00
+clock summer-time France recurring 5 Sat Jun 23:00 5 Sat Oct 23:00 60
+!
+snmp-server
+snmp-server location "EX5 (Externat), EX5-3 (Niv. 1 - Local VDI)"
+snmp-server enable trap auth lldp loopprot thrash-limit
+snmp-server community TICE 
+snmp-server host 10.113.76.160 TICE
+!
+!
+radius-server host 194.214.116.67 key 5yRgCcveLwJ+tI4qYOfNYM/QhwtCVcIwzjYaRs2EFAI= encrypted
+aaa group server radius RADIUS-RGE
+ server 194.214.116.67 
+!
+!
+aaa authentication enable default local
+aaa authentication login default group RADIUS-RGE local
+!
+!
+!
+stack virtual-chassis-id 3972
+stack 1 priority 0
+stack 2 priority 1
+stack 3 priority 2
+!
+ntp server 10.113.76.254
+!
+!
+loop-protection loop-detect ldf-interval 5
+!
+!
+!
+ip domain-lookup
+!
+!
+!
+no service dhcp-server
+!
+ip multicast-routing
+!
+lldp run
+!
+spanning-tree mode rstp
+spanning-tree portfast bpdu-guard
+spanning-tree errdisable-timeout enable
+spanning-tree errdisable-timeout interval 30
+!
+findme trigger loopprot
+lacp global-passive-mode enable
+!
+switch 1 provision gs980mx-28
+switch 2 provision gs980mx-28
+switch 3 provision gs980mx-28
+!
+vlan database
+ vlan 1 name Administratif
+ vlan 2 name Pedagogie
+ vlan 3 name DMZ_Publique
+ vlan 4 name DMZ_Privee
+ vlan 6 name Internet
+ vlan 7 name Management
+ vlan 10 name TOIP
+ vlan 20 name Videoprotection
+ vlan 21 name WIFI_Management
+ vlan 23 name GTB-GTC-OLD
+ vlan 33 name AffichageDynamique
+ vlan 510 name GEST-WIFI
+ vlan 511 name GEST-INFRA
+ vlan 515 name WIFI-INVITES
+ vlan 520 name WIFI-INTERNE-0
+ vlan 601 name GTB-GTC
+ vlan 999 name Poubelle
+ vlan 1-4,6-7,10,20-21,23,33,510-511,515,520,601,999 state enable
+ private-vlan 999 isolated
+!
+interface port1.0.1-1.0.23
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security aging
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.24
+ description Rocade CU vers EX5-1-2 port1.0.3
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,511
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.25-1.0.26
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 999
+ switchport mode private-vlan host 
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security aging
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.27-1.0.28
+ stackport
+!
+interface port2.0.1-2.0.24
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security aging
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port2.0.25-2.0.26
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 999
+ switchport mode private-vlan host 
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security aging
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port2.0.27-2.0.28
+ stackport
+!
+interface port3.0.1-3.0.12
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security aging
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port3.0.13-3.0.24
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security aging
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port3.0.25-3.0.26
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 999
+ switchport mode private-vlan host 
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security aging
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port3.0.27-3.0.28
+ stackport
+!
+interface vlan2
+ ip igmp
+ ip igmp version 2
+!
+interface vlan511
+ ip address 10.113.76.50/24
+!
+ip route 0.0.0.0/0 10.113.76.254
+!
+line con 0
+line vty 0 7
+!
+end
+
+EX5-3-1#

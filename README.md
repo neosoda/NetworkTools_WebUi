@@ -19,6 +19,7 @@
 - **Compatibilité Totale** : Support avancé pour **Cisco**, **Allied Telesis**, et **Aruba/HP**.
 - **Intelligence Aruba** : Détection et réponse automatique aux bannières *"Press any key"* et gestion dynamique de la pagination (`-- MORE --`).
 - **Fiabilisation SSH** : Algorithmes d'anti-EOF et sanitisation rigoureuse des bannières complexes (Mocana).
+- **Architecture de Production** : Code hautement modularisé, typage strict (`mypy`-ready), gestion explicite des exceptions SSH, et couverture par tests unitaires.
 
 ---
 

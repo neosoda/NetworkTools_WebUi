@@ -1,0 +1,1098 @@
+show running-config
+!
+service password-encryption
+!
+hostname AD2-2-1-CDR
+!
+banner exec MARQUETTE
+no banner motd
+!
+username cmil privilege 15 password 8 $1$bJoFfE4D$ZR83JnXi0Dz73JAlcpJ3Z.
+no username manager
+!
+log facility local0
+log host 10.113.76.160
+log host 10.113.76.160 level warnings 
+!
+ssh server allow-users *
+ssh server allow-users cmil
+service ssh
+!
+service telnet
+!
+no service http
+!
+clock timezone Paris plus 1:00
+clock summer-time Paris recurring 5 Sun Mar 02:00 5 Sun Oct 02:00 60
+!
+snmp-server
+snmp-server location "AD2 (Batiment Administration), A2-4 (Niv. R+1 - Local Serveur)"
+snmp-server enable trap auth lldp loopprot thrash-limit
+snmp-server community TICE 
+snmp-server host 10.113.76.160 TICE
+!
+!
+radius-server host 194.214.116.67 key 5yRgCcveLwJ+tI4qYOfNYM/QhwtCVcIwzjYaRs2EFAI= encrypted
+aaa group server radius RADIUS-RGE
+ server 194.214.116.67 
+!
+!
+aaa authentication enable default local
+aaa authentication login default group RADIUS-RGE local
+!
+!
+!
+stack virtual-chassis-id 945
+stack 1 priority 0
+stack 2 priority 1
+stack 3 priority 2
+!
+ntp source 10.113.76.254
+ntp server 10.255.20.59
+ntp server ntp.lor.numerique-educatif.fr
+!
+!
+loop-protection loop-detect ldf-interval 5
+!
+!
+!
+ip name-server 10.255.20.59
+no ip domain-lookup
+!
+!
+!
+no service dhcp-server
+!
+ip vrf AUTRE 1
+!
+ip multicast-routing
+!
+lldp run
+!
+spanning-tree mode rstp
+spanning-tree priority 0
+spanning-tree portfast bpdu-guard
+spanning-tree errdisable-timeout enable
+spanning-tree errdisable-timeout interval 30
+!
+findme trigger loopprot
+no service power-inline
+lacp global-passive-mode enable
+!
+switch 1 provision x930-28
+switch 2 provision x930-28
+switch 3 provision x930-28
+!
+vlan database
+ vlan 1 name Administratif
+ vlan 2 name Pedagogie
+ vlan 3 name DMZ_Publique
+ vlan 4 name DMZ_Privee
+ vlan 6 name Internet
+ vlan 10 name TOIP
+ vlan 20 name Videoprotection
+ vlan 21 name WIFI_Management
+ vlan 23 name GTB-GTC-Old
+ vlan 33 name AffichageDynamique
+ vlan 510 name GEST-WIFI
+ vlan 511 name GEST-INFRA
+ vlan 515 name WIFI-INVITES
+ vlan 517 name SERVEURS-PEDA
+ vlan 520 name WIFI-INTERNE-0
+ vlan 601 name GTB-GTC
+ vlan 602 name PPMS
+ vlan 604 name ALARME
+ vlan 606 name AFFICHAGE
+ vlan 999 name Prive-poubelle
+ vlan 1100 name VRF-RENATER
+ vlan 1101 name VRF-MGMT-WIFI-EN
+ vlan 1103 name VRF-TOIP
+ vlan 1104 name VRF-SUPERVISION-EN
+ vlan 1106 name VRF-ACAD
+ vlan 1-4,6,10,20-21,23,33,510-511,515,517,520,601-602,604,606-607,999,1100-1101,1103-1104,1106 state enable
+ private-vlan 999 isolated
+!
+interface port1.0.1
+ description GB1 TEAM HYPERV
+ switchport
+ switchport mode access
+ switchport access vlan 6
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ channel-group 1 mode active
+ snmp trap link-status
+!
+interface port1.0.2
+ description GB3 TEAM AMON
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 1-4,6,23,515,520
+ switchport trunk native vlan none
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ channel-group 2 mode active
+ snmp trap link-status
+!
+interface port1.0.3
+ description GB5 TEAM AMON
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 1-4,6,23,515,520
+ switchport trunk native vlan none
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ channel-group 2 mode active
+ snmp trap link-status
+!
+interface port1.0.4
+ description IPMG ToIP
+ thrash-limiting action link-down timeout 30
+ switchport
+ switchport mode access
+ switchport access vlan 10
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port1.0.5
+ description Routeur SFR Flux Renater-Wifi
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 6,21
+ switchport trunk native vlan none
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only timeout 300
+!
+interface port1.0.6
+ description Routeur SFR Flux ToIP-Supervision
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 1104
+ switchport trunk native vlan 10
+ storm-control broadcast level 10.0
+ storm-control multicast level 10.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only timeout 300
+!
+interface port1.0.7
+ description DESACTIVE
+ thrash-limiting action link-down timeout 30
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.8-1.0.9
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down
+ loop-protection action-delay-time 10
+!
+interface port1.0.10
+ description NAS QNAP Eth1
+ switchport
+ switchport mode access
+ switchport access vlan 511
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ channel-group 3 mode active
+ snmp trap link-status
+!
+interface port1.0.11
+ description NAS QNAP Eth3
+ switchport
+ switchport mode access
+ switchport access vlan 511
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ channel-group 3 mode active
+ snmp trap link-status
+!
+interface port1.0.12
+ description IDRAC AMON
+ thrash-limiting action link-down timeout 300
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ spanning-tree guard root
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 30
+!
+interface port1.0.13
+ description IDRAC HV1
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security violation restrict
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.14
+ description IDRAC HV2
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security violation restrict
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.15
+ description description ESXI VMNIC0
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,23,511,517
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.16
+ description description ESXI VMNIC2
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,23,511,517
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.17
+ description ESXI IDRAC
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,511,517
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.18-1.0.20
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.21
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port1.0.22
+ description "Rocade FO vers AD2-1-2 port1/g1"
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port1.0.23
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port1.0.24
+ description Rocade LACP FO vers EX5-1-2 port1.0.26
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,33,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ channel-group 4 mode active
+ snmp trap link-status
+ lldp tlv-select all
+!
+interface port1.0.25-1.0.26
+ description DESACTIVE
+ thrash-limiting action link-down timeout 30
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 999
+ switchport mode private-vlan host 
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.27-1.0.28
+ stackport
+!
+interface port2.0.1
+ description GB8 TEAM HYPERV
+ switchport
+ switchport mode access
+ switchport access vlan 6
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ channel-group 1 mode active
+ snmp trap link-status
+!
+interface port2.0.2
+ description GB4 TEAM AMON
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 1-4,6,23,515,520
+ switchport trunk native vlan none
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ channel-group 2 mode active
+ snmp trap link-status
+!
+interface port2.0.3
+ description GB6 TEAM AMON
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 1-4,6,23,515,520
+ switchport trunk native vlan none
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ channel-group 2 mode active
+ snmp trap link-status
+!
+interface port2.0.4-2.0.6
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,511,517
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only
+ loop-protection action-delay-time 30
+!
+interface port2.0.7
+ description DESACTIVE
+ thrash-limiting timeout 30
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port2.0.8-2.0.9
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down
+ loop-protection action-delay-time 10
+!
+interface port2.0.10
+ description NAS QNAP Eth2
+ switchport
+ switchport mode access
+ switchport access vlan 511
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ channel-group 3 mode active
+ snmp trap link-status
+!
+interface port2.0.11
+ description NAS QNAP Eth4
+ switchport
+ switchport mode access
+ switchport access vlan 511
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ channel-group 3 mode active
+ snmp trap link-status
+!
+interface port2.0.12
+ description DESACTIVE
+ shutdown
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 10,21,511
+ switchport trunk native vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ snmp trap link-status
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ spanning-tree guard root
+ lldp tlv-select all
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 30
+!
+interface port2.0.13
+ description Rocade Cu AD2-1-3 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port2.0.14
+ description "Rocade FO vers DP1-1-1 port1/g1"
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,4,10,21,23,511
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port2.0.15
+ description "Rocade FO vers EX1-1-1 port1/g1"
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port2.0.16
+ description Rocade FO vers AD2-4-2 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,4,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port2.0.17
+ description Rocade FO vers AT1-1-1 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port2.0.18
+ description Rocade LACP FO vers EX5-1-2 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,33,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ channel-group 4 mode active
+ snmp trap link-status
+ lldp tlv-select all
+!
+interface port2.0.19
+ description Rocade FO EX5-1-1 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port2.0.20
+ description Rocade FO EX2-1-1 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port2.0.21
+ description Rocade FO DP1-1-1 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port2.0.22
+ description Rocade FO EX1-1-2 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port2.0.23
+ description Rocade FO AD2-2-1 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port2.0.24
+ description Rocade FO vers AD2-3-2 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,4,10,21,23,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port2.0.25-2.0.26
+ description DESACTIVE
+ thrash-limiting action link-down timeout 30
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 999
+ switchport mode private-vlan host 
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port2.0.27-2.0.28
+ stackport
+!
+interface port3.0.1
+ description SERVEUR CEGID
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.2
+ description 0540058V-KNV
+ switchport
+ switchport mode access
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 2
+ switchport port-security violation restrict
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.3
+ description SERVEUR HORUS
+ switchport
+ switchport mode access
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.4
+ description SERVEUR FOG
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 2
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.5
+ description ESXI VMNIC1
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,23,511,517
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only
+ loop-protection action-delay-time 30
+!
+interface port3.0.6
+ description ESXI VMNIC4
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,23,511,517
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only
+ loop-protection action-delay-time 30
+!
+interface port3.0.7
+ description SERVEUR EDT
+ switchport
+ switchport mode access
+ switchport access vlan 4
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.8
+ description RELAIS EDT
+ switchport
+ switchport mode access
+ switchport access vlan 3
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.9
+ description SERVEUR ARD
+ switchport
+ switchport mode access
+ switchport access vlan 23
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.10
+ description PC CONSULTATION ARD
+ switchport
+ switchport mode access
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.11-3.0.13
+ description DESACTIVE
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.14
+ description Rocade FO vers EX2-1-2 port1.0.49
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.15
+ description Rocade FO vers EX2-1-6 port1.0.49
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.16
+ description Rocade FO vers EX2-1-4 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.17
+ description Rocade FO vers EX2-1-5 port1.0.49
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.18
+ description Rocade FO vers EX2-1-3 port1.0.49
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.19
+ description Rocade FO vers AD2-3-1 port1.0.25
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.20-3.0.24
+ description DESACTIVE
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,511,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface port3.0.25-3.0.26
+ description DESACTIVE
+ thrash-limiting action link-down timeout 30
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 999
+ switchport mode private-vlan host 
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port3.0.27-3.0.28
+ stackport
+!
+interface po1
+ description TEAM AMON-HYPERV
+ switchport
+ switchport mode access
+ switchport access vlan 6
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface po2
+ description TEAM AMON-AMON
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 1-4,6,23,515,520
+ switchport trunk native vlan none
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface po3
+ description SERVEUR LACP NAS QNAP 1-4
+ switchport
+ switchport mode access
+ switchport access vlan 511
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface po4
+ description Rocade LACP FO vers EX5-1-2 port1.0.25 et port1.0.26
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,10,21,23,33,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ loop-protection action log-only timeout 30
+ loop-protection action-delay-time 30
+!
+interface vlan1
+ ip vrf forwarding AUTRE
+ shutdown
+!
+interface vlan2
+ ip vrf forwarding AUTRE
+ ip igmp
+ ip igmp snooping querier
+ ip igmp version 2
+!
+interface vlan3-4,vlan6
+ ip vrf forwarding AUTRE
+ shutdown
+!
+interface vlan10
+ ip vrf forwarding AUTRE
+ shutdown
+ ip helper-address 172.20.255.1
+!
+interface vlan20-21,vlan23,vlan33,vlan510
+ ip vrf forwarding AUTRE
+ shutdown
+!
+interface vlan511
+ description GEST-INFRA
+ ip address 10.113.76.254/24
+!
+interface vlan515
+ ip vrf forwarding AUTRE
+ shutdown
+!
+interface vlan520,vlan601
+ ip vrf forwarding AUTRE
+ shutdown
+!
+interface vlan602
+ ip vrf forwarding AUTRE
+ shutdown
+ ip igmp
+ ip igmp snooping querier
+ ip igmp version 2
+!
+interface vlan604,vlan606-607,vlan999,vlan1100-1101,vlan1103
+ ip vrf forwarding AUTRE
+ shutdown
+!
+interface vlan1104
+ description VRF-SUPERVISION-EN
+ ip address 10.254.190.58/29
+!
+interface vlan1106
+ ip vrf forwarding AUTRE
+ shutdown
+!
+mac address-table static 6c24.0862.347c forward interface port3.0.7 vlan 4
+mac address-table static 1c66.6d92.a33a forward interface port3.0.4 vlan 2
+mac address-table static 1c66.6d96.4b4d forward interface port3.0.1 vlan 2
+mac address-table static 4cd9.8f60.c546 forward interface port1.0.12 vlan 2
+mac address-table static 6c0b.84ab.a743 forward interface port3.0.3
+mac address-table static 6c24.0862.30d2 forward interface port3.0.2
+mac address-table static 9cb6.54b9.43ac forward interface port3.0.8 vlan 3
+!
+ip radius source-interface 10.113.76.254
+!
+ip route 0.0.0.0/0 10.254.190.57
+!
+line con 0
+line vty 0 7
+!
+end
+
+AD2-2-1-CDR#

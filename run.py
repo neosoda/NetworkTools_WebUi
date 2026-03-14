@@ -1,4 +1,3 @@
-
 import os
 import sys
 import subprocess
@@ -6,9 +5,35 @@ import threading
 import time
 import webbrowser
 
+def is_venv():
+    return sys.prefix != sys.base_prefix
+
 def main():
     # Ensure run from project root
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    
+    # --- Auto-Bootstrapping Virtual Environment ---
+    if not is_venv():
+        venv_dir = os.path.join(os.getcwd(), "venv")
+        if not os.path.exists(venv_dir):
+            print("[⚙️] Création de l'environnement virtuel isolé (venv)...")
+            subprocess.run([sys.executable, "-m", "venv", "venv"], check=True)
+            print("[✅] Environnement virtuel créé avec succès.")
+        
+        if os.name == 'nt':
+            venv_python = os.path.join(venv_dir, "Scripts", "python.exe")
+            pip_cmd = os.path.join(venv_dir, "Scripts", "pip.exe")
+        else:
+            venv_python = os.path.join(venv_dir, "bin", "python")
+            pip_cmd = os.path.join(venv_dir, "bin", "pip")
+            
+        print("[⚙️] Vérification et installation des dépendances dans le venv...")
+        subprocess.run([pip_cmd, "install", "-r", "requirements.txt", "--quiet"])
+        
+        print("[✅] Lancement de l'application de manière isolée...")
+        subprocess.run([venv_python, os.path.abspath(__file__)] + sys.argv[1:])
+        sys.exit(0)
+    # ----------------------------------------------
     
     # Start server in a thread
     host = "127.0.0.1"

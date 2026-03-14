@@ -1,0 +1,220 @@
+show running-config
+!
+service password-encryption
+!
+hostname AD2-4-1
+!
+no banner motd
+!
+username cmil privilege 15 password 8 $1$w/k9gF09$k4PNBKs/v7XVAGbN0z6vx1
+no username manager
+!
+log facility local0
+log host 10.113.76.160
+log host 10.113.76.160 level warnings 
+!
+ssh server allow-users *
+ssh server allow-users cmil
+service ssh
+!
+service telnet
+!
+no service http
+!
+clock timezone Paris plus 1:00
+clock summer-time Paris recurring 5 Sun Mar 02:00 5 Sun Oct 02:00 60
+!
+snmp-server
+snmp-server location "AD2 (Administration), AD2-4 (Niv.RDC - Salle 1019)"
+snmp-server enable trap auth lldp loopprot thrash-limit
+snmp-server community TICE 
+snmp-server host 10.113.76.160 TICE
+!
+!
+radius-server host 194.214.116.67 key 9sTtE!ZY
+aaa group server radius RADIUS-RGE
+ server 194.214.116.67 
+!
+!
+aaa authentication enable default local
+aaa authentication login default group RADIUS-RGE local
+!
+!
+!
+stack virtual-chassis-id 3685
+stack 1 priority 1
+!
+!
+!
+ntp server 10.113.76.254
+!
+!
+loop-protection loop-detect ldf-interval 5
+!
+ip domain-lookup
+!
+no service dhcp-server
+!
+ip multicast-routing
+!
+lldp run
+!
+spanning-tree mode rstp
+spanning-tree portfast bpdu-guard
+spanning-tree errdisable-timeout enable
+spanning-tree errdisable-timeout interval 30
+!
+findme trigger loopprot
+linkflap action shutdown
+service power-inline
+lacp global-passive-mode enable
+!
+switch 1 provision gs900-24
+!
+vlan database
+ vlan 2 name Pedagogie
+ vlan 3 name DMZ_Publique
+ vlan 4 name DMZ_Privee
+ vlan 5 name Transport
+ vlan 6 name Internet
+ vlan 10 name Telephonie
+ vlan 21 name WIFI_Management
+ vlan 23 name GTC-GTB
+ vlan 510 name GEST-WIFI
+ vlan 511 name GEST-INFRA
+ vlan 515 name WIFI-INVITES
+ vlan 520 name WIFI-INTERNE-0
+ vlan 999 name POUBELLE
+ vlan 2-6,10,21,23,510-511,515,520,999 state enable
+ private-vlan 999 isolated
+!
+interface port1.0.1
+ description "0540058V-EX1-RDC-COULOIR_FOYER"
+ thrash-limiting timeout 30
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,510,515,520
+ switchport trunk native vlan 21
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ lldp tlv-select all
+ power-inline max 15400
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.2
+ description "0540058V-EX1-RDC-EX3_0_13"
+ thrash-limiting timeout 30
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,510,515,520
+ switchport trunk native vlan 21
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ lldp tlv-select all
+ power-inline max 15400
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.3
+ description "0540058V-EX1-RDC-CDI"
+ thrash-limiting timeout 30
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,510,515,520
+ switchport trunk native vlan 21
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ lldp tlv-select all
+ power-inline max 15400
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.4
+ description "0540058V-EX1-RDC-1020"
+ thrash-limiting timeout 30
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,510,515,520
+ switchport trunk native vlan 21
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ lldp tlv-select all
+ power-inline max 15400
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.5-1.0.24
+ description DESACTIVE
+ thrash-limiting action link-down timeout 30
+ shutdown
+ switchport
+ switchport mode access
+ switchport access vlan 999
+ switchport mode private-vlan host 
+ storm-control broadcast level 10.0
+ storm-control multicast level 30.0
+ storm-control dlf level 10.0
+ spanning-tree edgeport
+ spanning-tree portfast bpdu-guard enable
+ power-inline max 15400
+ no power-inline enable
+ loop-protection action link-down timeout 30
+ loop-protection action-delay-time 10
+!
+interface port1.0.25
+ description "Rocade FO vers AD2-1-1 port2.0.23"
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,21,510-511,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.26
+ shutdown
+ switchport
+ switchport mode trunk
+ switchport trunk allowed vlan add 2,21,510,515,520
+ storm-control broadcast level 10.0
+ storm-control multicast level 80.0
+ storm-control dlf level 10.0
+ snmp trap link-status
+ lldp tlv-select all
+ loop-protection action log-only timeout 300
+ loop-protection action-delay-time 30
+!
+interface port1.0.27-1.0.28
+ stackport
+!
+interface vlan2
+ ip igmp
+ ip igmp version 2
+!
+interface vlan511
+ ip address 10.113.76.3/24
+!
+ip route 0.0.0.0/0 10.113.76.254
+!
+line con 0
+line vty 0 4
+!
+end
+
+AD2-4-1#

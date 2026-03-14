@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="/static/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    <!-- vis-network for topology -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/standalone/umd/vis-network.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="app-container">
@@ -225,6 +222,7 @@
                             <label>&nbsp;</label>
                             <button class="btn btn-primary" id="btn-ssh-start" onclick="startSSH()">⚡ Exécuter</button>
                             <button class="btn btn-danger" id="btn-ssh-stop" onclick="stopSSH()" disabled>🛑 Stop</button>
+                            <button class="btn btn-ghost" id="btn-ssh-report" style="display:none">📄 Afficher TXT</button>
                         </div>
                     </div>
                     <div class="progress-container" id="ssh-progress-container" style="display:none">
@@ -490,6 +488,10 @@
         </div>
     </div>
 
+    <!-- External Dependencies (Loaded with defer for better performance/offline resilience) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/standalone/umd/vis-network.min.js" defer></script>
+    
     <!-- Scripts -->
     <script src="/static/js/app.js"></script>
     <script src="/static/js/scan.js"></script>
@@ -500,5 +502,6 @@
     <script src="/static/js/topology.js"></script>
     <script src="/static/js/history.js"></script>
     <script src="/static/js/scheduler.js"></script>
+    <script src="/static/js/playbook.js"></script>
 </body>
 </html>
