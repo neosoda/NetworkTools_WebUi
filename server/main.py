@@ -83,9 +83,11 @@ async def download_file(filename: str):
 
     requested_path = _safe_download_path(filename)
 
-    # Fallback to current working directory for local development compatibility
-    local_fallback_path = Path(os.getcwd()).resolve() / Path(filename).name
-    candidate_paths = [requested_path, local_fallback_path]
+    candidate_paths = [requested_path]
+    # Keep local-dev compatibility only outside frozen/packaged runtime.
+    if not getattr(sys, "frozen", False):
+        local_fallback_path = Path(os.getcwd()).resolve() / Path(filename).name
+        candidate_paths.append(local_fallback_path)
 
     for path in candidate_paths:
         if path.exists() and path.is_file():
