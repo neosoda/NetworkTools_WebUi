@@ -1,11 +1,12 @@
 
 import asyncio
-import json
 import logging
 import os
 import sys
 from contextlib import asynccontextmanager
-from fastapi import FastAPI
+from pathlib import Path
+
+from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
@@ -18,6 +19,21 @@ logger = logging.getLogger(__name__)
 
 # Global asyncio queue for inter-thread communication
 main_queue = asyncio.Queue()
+
+
+def _safe_download_path(filename: str) -> Path:
+    """Resolve and validate download file path to prevent path traversal."""
+    if not filename or Path(filename).name != filename:
+        raise HTTPException(status_code=400, detail="Invalid filename")
+
+    from server.utils.paths import get_app_data_dir
+
+    app_data_dir = Path(get_app_data_dir()).resolve()
+    requested_path = (app_data_dir / filename).resolve()
+    if requested_path.parent != app_data_dir:
+        raise HTTPException(status_code=400, detail="Invalid filename")
+
+    return requested_path
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -63,27 +79,38 @@ async def root():
 
 @app.get("/api/download/{filename}")
 async def download_file(filename: str):
-    import os
     import mimetypes
-    from server.utils.paths import get_file_path
-    path = get_file_path(filename)
-    if not os.path.exists(path):
-        # Fallback to current working directory for local development compatibility
-        path = os.path.join(os.getcwd(), filename)
-    
-    if os.path.exists(path):
-        mt, _ = mimetypes.guess_type(path)
+    from server.utils.paths import get_app_data_dir
+
+    requested_path = _safe_download_path(filename)
+
+    candidate_paths = [requested_path]
+    # Keep local-dev compatibility only outside frozen/packaged runtime.
+    if not getattr(sys, "frozen", False):
+        local_fallback_path = Path(os.getcwd()).resolve() / Path(filename).name
+        candidate_paths.append(local_fallback_path)
+
+    for path in candidate_paths:
+        if path.exists() and path.is_file():
+            # Restrict fallback file serving to files inside current app data dir or cwd.
+            app_data_dir = Path(get_app_data_dir()).resolve()
+            cwd = Path(os.getcwd()).resolve()
+            if app_data_dir not in path.parents and cwd not in path.parents:
+                raise HTTPException(status_code=403, detail="Unauthorized file access")
+
+            mt, _ = mimetypes.guess_type(str(path))
         # Only set 'filename' for attachment, but we want inline viewing for HTML
-        headers = {}
-        if not filename.endswith('.html'):
-            headers["Content-Disposition"] = f'attachment; filename="{filename}"'
-            
-        return FileResponse(
-            path, 
-            media_type=mt or 'application/octet-stream',
-            headers=headers
-        )
-    return {"error": "File not found"}
+            headers = {}
+            if not filename.endswith('.html'):
+                headers["Content-Disposition"] = f'attachment; filename="{filename}"'
+
+            return FileResponse(
+                str(path),
+                media_type=mt or 'application/octet-stream',
+                headers=headers,
+            )
+
+    raise HTTPException(status_code=404, detail="File not found")
 
 # SPA Catch-all
 @app.get("/{full_path:path}")
