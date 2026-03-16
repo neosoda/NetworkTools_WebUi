@@ -1,28 +1,35 @@
 
-import os
-import yaml
 import asyncio
+import json
 import threading
 import uuid
-from datetime import datetime
-from fastapi import APIRouter, BackgroundTasks, UploadFile, File
+from pathlib import Path
+
+import yaml
+from fastapi import APIRouter, BackgroundTasks
 from fastapi.responses import StreamingResponse
-from server.db.database import get_db
 
 router = APIRouter()
 _active_playbooks = {}
-PLAYBOOKS_DIR = "playbooks"
+PLAYBOOKS_DIR = Path("playbooks")
+PLAYBOOKS_DIR.mkdir(parents=True, exist_ok=True)
 
-if not os.path.exists(PLAYBOOKS_DIR):
-    os.makedirs(PLAYBOOKS_DIR)
+
+def _resolve_playbook_path(filename: str) -> Path:
+    if not filename or Path(filename).name != filename:
+        raise ValueError("Invalid playbook filename")
+    path = (PLAYBOOKS_DIR / filename).resolve()
+    if path.parent != PLAYBOOKS_DIR.resolve():
+        raise ValueError("Invalid playbook filename")
+    return path
 
 @router.get("/")
 async def list_playbooks():
-    files = [f for f in os.listdir(PLAYBOOKS_DIR) if f.endswith(('.yaml', '.yml'))]
+    files = [p.name for p in PLAYBOOKS_DIR.iterdir() if p.is_file() and p.suffix in {".yaml", ".yml"}]
     playbooks = []
     for f in files:
         try:
-            with open(os.path.join(PLAYBOOKS_DIR, f), 'r') as stream:
+            with (PLAYBOOKS_DIR / f).open("r", encoding="utf-8") as stream:
                 content = yaml.safe_load(stream)
                 playbooks.append({"filename": f, "name": content.get("name", f), "description": content.get("description", "")})
         except:
@@ -47,7 +54,8 @@ async def _execute_playbook(task_id, filename, ips, username, password):
     queue = _active_playbooks[task_id]
     
     try:
-        with open(os.path.join(PLAYBOOKS_DIR, filename), 'r') as stream:
+        playbook_path = _resolve_playbook_path(filename)
+        with playbook_path.open("r", encoding="utf-8") as stream:
             pb = yaml.safe_load(stream)
         
         await queue.put({"type": "log", "text": f"🚀 Démarrage du playbook: {pb.get('name')}"})
@@ -94,7 +102,6 @@ async def stream_playbook(task_id: str):
         q = _active_playbooks[task_id]
         while True:
             item = await q.get()
-            import json
             yield f"data: {json.dumps(item)}\n\n"
             if item.get("type") == "done":
                 _active_playbooks.pop(task_id, None)
