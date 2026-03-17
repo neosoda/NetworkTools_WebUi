@@ -13,8 +13,9 @@ def main():
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     
     # --- Auto-Bootstrapping Virtual Environment ---
+    root_dir = os.path.dirname(os.path.abspath(__file__))
     if not is_venv():
-        venv_dir = os.path.join(os.getcwd(), "venv")
+        venv_dir = os.path.join(root_dir, "venv")
         if not os.path.exists(venv_dir):
             print("[⚙️] Création de l'environnement virtuel isolé (venv)...")
             subprocess.run([sys.executable, "-m", "venv", "venv"], check=True)
@@ -22,13 +23,12 @@ def main():
         
         if os.name == 'nt':
             venv_python = os.path.join(venv_dir, "Scripts", "python.exe")
-            pip_cmd = os.path.join(venv_dir, "Scripts", "pip.exe")
         else:
             venv_python = os.path.join(venv_dir, "bin", "python")
-            pip_cmd = os.path.join(venv_dir, "bin", "pip")
             
         print("[⚙️] Vérification et installation des dépendances dans le venv...")
-        subprocess.run([pip_cmd, "install", "-r", "requirements.txt", "--quiet"])
+        # Use venv_python -m pip for reliability
+        subprocess.run([venv_python, "-m", "pip", "install", "-r", "requirements.txt", "--quiet"])
         
         print("[✅] Lancement de l'application de manière isolée...")
         subprocess.run([venv_python, os.path.abspath(__file__)] + sys.argv[1:])

@@ -13,14 +13,14 @@ Le projet NetworkTools-V3 est un outil de gestion réseau permettant l’analyse
 - **Environnement cible**: Déploiement en cloud (AWS) et sur-premises.
 
 ## Architecture Overview
-- **Stack technique**: Python 3.9, Flask pour le backend, React.js pour le frontend.
-- **Patterns architecturaux assumés**: MVC pour le backend, composants pour le frontend.
+- **Stack technique**: Python 3.9, FastAPI pour le backend, Vanilla JS pour le frontend.
+- **Patterns architecturaux assumés**: Router/Manager pour le backend, Single Page Application (SPA) pour le frontend.
 - **Ce qui est volontairement simple**: Interface utilisateur basique.
 - **Ce qui est volontairement complexe**: Gestion des configurations réseau et sauvegardes.
 
 ## Constraints (NON NEGOTIABLE)
-- Utilisation de Flask pour le backend.
-- Utilisation de React.js pour le frontend.
+- Utilisation de FastAPI pour le backend.
+- Utilisation de Vanilla JavaScript pour le frontend.
 - Authentification multi-facteurs obligatoire.
 
 ## Coding Rules
@@ -51,7 +51,7 @@ Le projet NetworkTools-V3 est un outil de gestion réseau permettant l’analyse
 - **Obligation de signaler les hypothèses et les risques**: Toutes les hypothèses et risques potentiels doivent être documentés dans `CONTEXT.md`.
 
 ## Decision Log (Initial)
-- **Décision clé**: Utilisation de Flask pour le backend → Raison: déjà utilisé dans d’autres projets internes → Alternatives rejetées: Django, FastAPI → Trade-offs acceptés: courbe d’apprentissage plus faible.
+- **Décision clé**: Utilisation de FastAPI pour le backend → Raison: Performance et typage Python moderne.
 - **Dette technique consciente**: Aucune.
 
 ## How to Extend Safely

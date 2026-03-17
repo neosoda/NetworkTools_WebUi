@@ -9,6 +9,7 @@ from datetime import datetime
 from typing import List, Any
 
 from server.utils.network_sanitizer import clean_output
+from server.utils.paths import get_file_path
 
 class BackupManager:
     def __init__(self):
@@ -48,6 +49,7 @@ class BackupManager:
                 continue
                 
             status = "Inconnu"
+            filename_base = ""
             filename = ""
             ssh = paramiko.SSHClient()
             ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy()) 
@@ -151,11 +153,15 @@ class BackupManager:
                 hostname = re.sub(r'[<>:"/\\|?*\']', '', hostname).strip()
                 hostname = re.sub(r'[>#]$', '', hostname)
                 
-                filename = f"{hostname}_config.txt"
+                filename_base = f"{hostname}_config.txt"
+                filename = get_file_path(filename_base)
                 with open(filename, "w", encoding="utf-8") as f:
                     f.write(config_output)
                 
                 status = "Succès"
+                # Record filename for ZIP relative to app data
+                item_filename = filename_base 
+                actual_path = filename
                 
             except paramiko.AuthenticationException:
                 status = "Erreur: Authentification refusée"
@@ -169,7 +175,7 @@ class BackupManager:
             finally:
                 ssh.close()
             
-            report.append({'ip': ip, 'status': status, 'filename': filename})
+            report.append({'ip': ip, 'status': status, 'filename': filename_base if status == "Succès" else ""})
             if queue_obj:
                 queue_obj.put({'type': 'progress', 'value': i+1, 'text': f"{ip}: {status}"})
 
@@ -180,9 +186,11 @@ class BackupManager:
         
         with zipfile.ZipFile(zip_filename, "w") as zip_file:
             for item in report:
-                if item['filename'] and os.path.exists(item['filename']):
-                    zip_file.write(item['filename'], arcname=item['filename'])
-                    os.remove(item['filename']) # Cleanup
+                if item['filename']:
+                    full_path = get_file_path(item['filename'])
+                    if os.path.exists(full_path):
+                        zip_file.write(full_path, arcname=item['filename'])
+                        os.remove(full_path) # Cleanup from data dir
 
         # Write Report
         report_path = get_file_path("rapport.txt")

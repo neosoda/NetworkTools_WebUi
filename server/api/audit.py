@@ -54,15 +54,26 @@ def _build_rules(config_content, mode, should_exist):
         words = config_content.split()
         if words:
             safe_pattern = r"\s+".join([re.escape(p) for p in words])
-            rules.append({"name": f"{verb} Bloc: {' '.join(words[:4])}...", 
-                         "pattern": safe_pattern, "should_exist": should_exist})
+            rules.append({
+                "name": f"{verb} Bloc: {' '.join(words[:4])}...", 
+                "pattern": safe_pattern, 
+                "should_exist": should_exist,
+                "type": "block",
+                "original_words": words
+            })
     else:
         for line in config_content.split("\n"):
             line = line.strip()
             if line:
-                pattern = r"\s+".join([re.escape(p) for p in line.split()])
-                rules.append({"name": f"{verb} {line}"[:60], 
-                             "pattern": pattern, "should_exist": should_exist})
+                words = line.split()
+                pattern = r"\s+".join([re.escape(p) for p in words])
+                rules.append({
+                    "name": f"{verb} {line}"[:60], 
+                    "pattern": pattern, 
+                    "should_exist": should_exist,
+                    "type": "line",
+                    "original_words": words
+                })
     return rules
 
 @router.post("/stop/{task_id}")
@@ -132,10 +143,13 @@ async def remediate(body: dict):
     cmd = "configure terminal\n"
     r = rule_name.lower()
     if "password-encryption" in r: cmd += "service password-encryption\n"
-    elif "banner" in r: cmd += "no banner motd\n"
-    elif "ssh" in r: cmd += "crypto key generate rsa\nip ssh version 2\n"
-    elif "http" in r: cmd += "no ip http server\nno ip http secure-server\n"
-    elif "telnet" in r: cmd += "no service telnet\n"
+    elif "banner" in r: cmd += "no banner motd\nno banner exec\nno banner login\n"
+    elif "ssh" in r: cmd += "ip domain-name local.lab\ncrypto key generate rsa modulus 2048\nip ssh version 2\nip ssh time-out 60\nip ssh authentication-retries 3\n"
+    elif "http" in r or "web" in r: cmd += "no ip http server\nno ip http secure-server\n"
+    elif "telnet" in r: cmd += "line vty 0 15\ntransport input ssh\n"
+    elif "snmp" in r: cmd += "no snmp-server community public\nno snmp-server community private\n"
+    elif "ntp" in r: cmd += "ntp server 8.8.8.8\n"
+    elif "logging" in r: cmd += "logging buffered 16384\nlogging trap notifications\n"
     else: cmd += f"! TODO : Corriger manuellement la règle '{rule_name}'\n"
     cmd += "end\nwrite memory"
     

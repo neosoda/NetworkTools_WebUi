@@ -92,5 +92,16 @@ def init_db():
     )''')
 
     conn.commit()
+
+    # Migrations: add columns that may be missing in older DBs
+    try:
+        existing_cols = [row[1] for row in conn.execute("PRAGMA table_info(scan_results)").fetchall()]
+        if "contact" not in existing_cols:
+            logging.info("Migrating database: adding 'contact' column to scan_results.")
+            conn.execute("ALTER TABLE scan_results ADD COLUMN contact TEXT DEFAULT ''")
+            conn.commit()
+    except Exception as e:
+        logging.error(f"Migration error: {e}")
+
     conn.close()
     logging.info("Database initialized.")

@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Scripts de base (Chargement synchrone pour éviter les ReferenceErrors dans les scripts dépendants) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/standalone/umd/vis-network.min.js"></script>
 </head>
 <body>
     <div class="app-container">
@@ -162,7 +165,7 @@
                 </div>
                     <div class="table-wrapper">
                         <table class="data-table" id="tbl-scan-results">
-                            <thead><tr><th>IP</th><th>Nom</th><th>Modèle</th><th>SNMP</th><th>MAC</th><th>Description</th><th>Localisation</th></tr></thead>
+                            <thead><tr><th>IP</th><th>Nom</th><th>Modèle</th><th>SNMP</th><th>MAC</th><th>Description</th><th>Localisation</th><th>Contact</th></tr></thead>
                             <tbody></tbody>
                         </table>
                     </div>
@@ -488,10 +491,6 @@
         </div>
     </div>
 
-    <!-- External Dependencies (Loaded with defer for better performance/offline resilience) -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/standalone/umd/vis-network.min.js" defer></script>
-    
     <!-- Scripts -->
     <script src="/static/js/app.js"></script>
     <script src="/static/js/scan.js"></script>

@@ -14,21 +14,31 @@ router = APIRouter()
 # Global task registry
 _active_scans = {}
 
-def load_config():
+def load_config(config_name="config.json"):
     try:
-        config_path = get_file_path("config.json")
+        from server.utils.paths import get_file_path
+        config_path = get_file_path(config_name)
+        default_settings = {"snmp_communities": ["public", "TICE"], "ip_scan_limit_last_octet": 254}
         if not os.path.exists(config_path):
-             return {"settings": {"snmp_communities": ["public"], "ip_scan_limit_last_octet": 254}, "oids": {}}
+             # Fallback to config - Copie.json if config.json missing
+             if config_name == "config.json":
+                 return load_config("config - Copie.json")
+             return {"settings": default_settings, "oids": {}}
         with open(config_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+            # Normalize config - Copie.json style
+            if "settings" not in data:
+                return {"settings": default_settings, "oids": data}
+            return data
     except Exception:
-        return {"settings": {"snmp_communities": ["public"], "ip_scan_limit_last_octet": 254}, "oids": {}}
+        return {"settings": {"snmp_communities": ["public", "TICE"], "ip_scan_limit_last_octet": 254}, "oids": {}}
 
 @router.post("/start")
 async def start_scan(body: dict, background_tasks: BackgroundTasks):
     scan_id = str(uuid.uuid4())
     network = body.get("network", "192.168.1.0/24")
-    
+    ui_community = body.get("community", "").strip()
+
     # Register scan in DB
     conn = get_db()
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -40,17 +50,23 @@ async def start_scan(body: dict, background_tasks: BackgroundTasks):
     main_loop = asyncio.get_running_loop()
     queue = asyncio.Queue()
     _active_scans[scan_id] = {"queue": queue, "db_id": db_scan_id}
-    
-    background_tasks.add_task(_run_scan, scan_id, db_scan_id, network, main_loop)
+
+    background_tasks.add_task(_run_scan, scan_id, db_scan_id, network, main_loop, ui_community)
     return {"scan_id": scan_id, "db_id": db_scan_id}
 
-def _run_scan(scan_id: str, db_id: int, network: str, main_loop):
+def _run_scan(scan_id: str, db_id: int, network: str, main_loop, ui_community: str = ""):
     """Run scan in thread, push results to queue."""
     import threading, asyncio
-    
+
     from server.managers.snmp_manager import SNMPManager
     config = load_config()
     queue = _active_scans[scan_id]["queue"]
+
+    # Prepend UI community if provided and not already in list
+    if ui_community:
+        existing = config["settings"].get("snmp_communities", [])
+        if ui_community not in existing:
+            config["settings"]["snmp_communities"] = [ui_community] + existing
     
     sync_queue = __import__("queue").Queue()
     manager = SNMPManager()
@@ -73,12 +89,13 @@ def _run_scan(scan_id: str, db_id: int, network: str, main_loop):
             try:
                 conn = get_db()
                 conn.execute(
-                    """INSERT INTO scan_results 
-                       (scan_id, ip, snmp_version, mac, name, model, description, location, timestamp) 
-                       VALUES (?,?,?,?,?,?,?,?,?)""",
-                    (db_id, item.get("ip"), item.get("snmp"), item.get("mac"), 
-                     item.get("name"), item.get("model"), item.get("desc"), 
-                     item.get("location"), datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+                    """INSERT INTO scan_results
+                       (scan_id, ip, snmp_version, mac, name, model, description, location, contact, timestamp)
+                       VALUES (?,?,?,?,?,?,?,?,?,?)""",
+                    (db_id, item.get("ip"), item.get("snmp"), item.get("mac"),
+                     item.get("name"), item.get("model"), item.get("desc"),
+                     item.get("location"), item.get("contact", ""),
+                     datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
                 )
                 conn.commit()
                 conn.close()
